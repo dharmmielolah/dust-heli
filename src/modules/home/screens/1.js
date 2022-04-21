@@ -49,7 +49,10 @@ const Home = ({navigation, route}) => {
           text="STYLES"
           action={() => navigation.navigate(routesNames.MYSTYLES)}
         />
-        <Menu text="ABOUT US" />
+        <Menu
+          text="ABOUT US"
+          action={() => navigation.navigate(routesNames.ABOUTUS)}
+        />
       </View>
     </ImageBackground>
   );

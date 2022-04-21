@@ -1,6 +1,5 @@
 import React from 'react';
 import {PixelRatio, Text} from 'react-native';
-import Colors from '../colors';
 
 export const fontNames = {
   BOLD: 'Inter-Bold',
@@ -12,19 +11,12 @@ export const fontNames = {
   BLACK: 'Inter-Black',
 };
 
-export default ({
-  type = fontNames.REGULAR,
-  textStyles,
-  children,
-  numberOfLines,
-}) => {
+export default ({type = fontNames.REGULAR, textStyles, children}) => {
   return (
     <Text
-      numberOfLines={numberOfLines}
       style={[
         {
           fontFamily: type,
-          color: Colors.black,
           fontSize: PixelRatio.getFontScale() * 16,
         },
         textStyles,

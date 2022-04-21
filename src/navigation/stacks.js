@@ -9,6 +9,7 @@ import * as HOME from '../modules/home';
 import * as EXPLORE from '../modules/explore';
 import * as HOLOGRAM from '../modules/hologram';
 import * as MYSTYLES from '../modules/mystyles';
+import * as ABOUTUS from '../modules/aboutus';
 
 const Routes = createStackNavigator();
 
@@ -49,6 +50,11 @@ export default () => {
           component={MYSTYLES.MyStylesOne}
           options={{headerShown: false}}
         />
+        <Routes.Screen
+          name={routesNames.ABOUTUS}
+          component={ABOUTUS.AboutUs}
+          options={{headerShown: false}}
+        />
       </Routes.Navigator>
     </NavigationContainer>
   );
@@ -61,4 +67,5 @@ export const routesNames = {
   HOLOGRAM: 'Hologram',
   MYSTYLES: 'MyStyles',
   MYSTYLESONE: 'MyStylesOne',
+  ABOUTUS: 'ABOUTUS',
 };
