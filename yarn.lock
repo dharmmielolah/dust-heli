@@ -5751,6 +5751,11 @@ react-native-gesture-handler@^1.6.1:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
+react-native-gl-model-view@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/react-native-gl-model-view/-/react-native-gl-model-view-1.6.0.tgz#96890b6345f8f8c642c42aaa173ef20acf8ea2d9"
+  integrity sha512-isZNRDe9gQz/HhCRMhlz1lxhdZfyUYo1ng8LJroSCRTCx7xOdTWENCGxN02wgUw5igQiRaZKEXy0npfqYg2Qqw==
+
 react-native-gradle-plugin@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.0.6.tgz#b61a9234ad2f61430937911003cddd7e15c72b45"

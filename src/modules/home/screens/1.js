@@ -45,7 +45,10 @@ const Home = ({navigation, route}) => {
           text="EXPLORE"
           action={() => navigation.navigate(routesNames.EXPLORE)}
         />
-        <Menu text="STYLE" />
+        <Menu
+          text="STYLES"
+          action={() => navigation.navigate(routesNames.MYSTYLES)}
+        />
         <Menu text="ABOUT US" />
       </View>
     </ImageBackground>

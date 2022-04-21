@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650503106/STYLE/IMG_859C2EA71DC6-1_ujfxf6.jpg",
+    "obj": "1.obj",
+    "png": "1.png"
+  },
+  {
+    "id": 2,
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650503106/STYLE/IMG_FAE5846C4198-1_lm2ptd.jpg",
+    "obj": "2.obj",
+    "png": "2.png"
+  },
+  {
+    "id": 3,
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650503106/STYLE/IMG_DF28DCDE2A2B-1_xgy2iy.jpg",
+    "obj": "3.obj",
+    "png": "3.png"
+  }
+]

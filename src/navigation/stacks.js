@@ -8,6 +8,7 @@ import {_navigator} from './service';
 import * as HOME from '../modules/home';
 import * as EXPLORE from '../modules/explore';
 import * as HOLOGRAM from '../modules/hologram';
+import * as MYSTYLES from '../modules/mystyles';
 
 const Routes = createStackNavigator();
 
@@ -38,6 +39,16 @@ export default () => {
           component={HOLOGRAM.Hologram}
           options={{headerShown: false, animationEnabled: false}}
         />
+        <Routes.Screen
+          name={routesNames.MYSTYLES}
+          component={MYSTYLES.MyStyles}
+          options={{headerShown: false}}
+        />
+        <Routes.Screen
+          name={routesNames.MYSTYLESONE}
+          component={MYSTYLES.MyStylesOne}
+          options={{headerShown: false}}
+        />
       </Routes.Navigator>
     </NavigationContainer>
   );
@@ -48,4 +59,6 @@ export const routesNames = {
   EXPLORE: 'Explore',
   EXPLOREONE: 'ExploreOne',
   HOLOGRAM: 'Hologram',
+  MYSTYLES: 'MyStyles',
+  MYSTYLESONE: 'MyStylesOne',
 };
