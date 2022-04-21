@@ -3,79 +3,61 @@
     "id": 1,
     "name": "Vu Uyen Krausová",
     "title": "Art direction",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557710/CREW/poly-snapshot_6_sinaxd.jpg"
   },
   {
     "id": 2,
     "name": "Aneta Vítková",
     "title": "Camera Operation",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650554102/CREW/poly-snapshot_4_k7kptk.jpg"
   },
   {
     "id": 3,
     "name": "Veronika Janni",
     "title": "Dancer",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650554102/CREW/poly-snapshot_3_c2dncs.jpg"
   },
   {
     "id": 4,
     "name": "Eden Blu",
     "title": "Dancer",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650554102/CREW/poly-snapshot_5_w3fdm4.jpg"
   },
   {
     "id": 5,
-    "name": "Vicks",
-    "title": "Camera Assistant",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "name": "Viktoria Stoyanova",
+    "title": "Camera Assistant/Post production",
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557710/CREW/GoogleService-Info_shuhmk.jpg"
   },
   {
     "id": 6,
     "name": "Robert Mašek",
     "title": "Camera Assistant",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Vicks Stoy",
-    "title": "Post production",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557711/CREW/Screenshot_2022-04-21_at_16.42.23_ohueyo.png"
   },
   {
     "id": 8,
     "name": "Brandon Suth",
     "title": "Choreography",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650554102/CREW/poly-snapshot_bwqze6.jpg"
   },
   {
     "id": 9,
     "name": "Qirou Zhou",
     "title": "Styling",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557710/CREW/Screenshot_2022-04-21_at_16.48.38_zbkonq.png"
   },
   {
     "id": 10,
     "name": "Yue Qing Wei",
     "title": "Designer",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557710/CREW/1643335304933_d7ip8b.jpg"
   },
   {
     "id": 11,
     "name": "Elysse Rianna",
     "title": "Hair/MUA",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Mikkel Svaka",
-    "title": "Special Thanks to",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Anna Barsukova",
-    "title": "Special Thanks to",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650554095/CREW/poly-snapshot_2_ubwcdh.jpg"
   },
   {
     "id": 14,
@@ -87,6 +69,18 @@
     "id": 15,
     "name": "Damilola Aigoro",
     "title": "App design",
-    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650494797/EXPLORE/DSC_0090-Edit_jo9knj.jpg"
+    "url": "https://res.cloudinary.com/dc874umqf/image/upload/v1650557744/CREW/poly-snapshot_7_onmjlb.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mikkel Svak",
+    "title": "Special Thanks to",
+    "url": null
+  },
+  {
+    "id": 13,
+    "name": "Anna Barsukova",
+    "title": "Special Thanks to",
+    "url": null
   }
 ]

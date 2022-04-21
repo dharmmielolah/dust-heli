@@ -25,12 +25,14 @@ const AboutUs = ({navigation}) => {
                 alignItems: 'center',
                 marginBottom: 20,
               }}>
-              <Image
-                source={{
-                  uri: about.url,
-                }}
-                style={Styles.image}
-              />
+              {about.url ? (
+                <Image
+                  source={{
+                    uri: about.url,
+                  }}
+                  style={Styles.image}
+                />
+              ) : null}
               <View style={{flex: 1}}>
                 <Text textStyles={Styles.subText}>{about.title}</Text>
                 <Text type={fontNames.BOLD} textStyles={Styles.mainText}>

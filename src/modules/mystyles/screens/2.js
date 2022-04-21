@@ -2,8 +2,9 @@ import Header from '../../../components/header';
 import Styles from '../style';
 import React, {Component} from 'react';
 import {View, Animated, StatusBar} from 'react-native';
-
+import Text, {fontNames} from '../../../assets/fonts';
 import ModelView from 'react-native-gl-model-view';
+import Colors from '../../../assets/colors';
 const AnimatedModelView = Animated.createAnimatedComponent(ModelView);
 
 export default class MyStylesOne extends Component {
@@ -50,11 +51,22 @@ export default class MyStylesOne extends Component {
   }
 
   render() {
-    const {obj, png} = this.props.route.params;
+    const {obj, png, dressName} = this.props.route.params;
     return (
       <>
         <View style={Styles.container}>
           <Header darkMode onlyBack navigation={this.props.navigation} />
+          <Text
+            type={fontNames.BOLD}
+            textStyles={{
+              color: Colors.secondary,
+              zIndex: 3,
+              position: 'absolute',
+              top: 90,
+              right: 30,
+            }}>
+            {dressName}
+          </Text>
         </View>
         {this.renderModel(obj, png)}
       </>

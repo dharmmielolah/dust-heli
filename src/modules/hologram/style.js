@@ -6,7 +6,7 @@ export default StyleSheet.create({
     flex: 1,
     paddingTop: Platform.OS === 'ios' ? 30 : 20,
     paddingHorizontal: 27,
-    zIndex: 2,
+    zIndex: 3,
   },
   video: {
     width: '100%',
@@ -18,6 +18,16 @@ export default StyleSheet.create({
     bottom: 0,
     right: 0,
     zIndex: 1,
+  },
+  videoContainer: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    zIndex: 2,
   },
   thumbnail: {
     width: 150,
