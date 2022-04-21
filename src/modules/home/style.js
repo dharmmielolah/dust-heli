@@ -4,7 +4,7 @@ import Colors from '../../assets/colors';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: Colors.secondary,
+    backgroundColor: Colors.primary,
     paddingTop: Platform.OS === 'ios' ? 90 : 70,
     alignItems: 'center',
   },

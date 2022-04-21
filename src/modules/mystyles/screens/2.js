@@ -1,7 +1,7 @@
 import Header from '../../../components/header';
 import Styles from '../style';
 import React, {Component} from 'react';
-import {View, Animated} from 'react-native';
+import {View, Animated, StatusBar} from 'react-native';
 
 import ModelView from 'react-native-gl-model-view';
 const AnimatedModelView = Animated.createAnimatedComponent(ModelView);
@@ -15,6 +15,7 @@ export default class MyStylesOne extends Component {
   }
 
   componentDidMount() {
+    StatusBar.setBarStyle('light-content');
     this.animate(0);
   }
 
@@ -22,7 +23,7 @@ export default class MyStylesOne extends Component {
     Animated.timing(this.state.rotateZ, {
       toValue: ++iteration * 360,
       useNativeDriver: true,
-      duration: 5000,
+      duration: 7000,
     }).start(this.animate.bind(this, iteration++));
   }
 
